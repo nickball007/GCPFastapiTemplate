@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r  requirements.txt
 
 ENV APP_HOME /root
 WORKDIR $APP_HOME
-# COPY src/ $APP_HOME/src/
 COPY . ./
 
 EXPOSE 8080
