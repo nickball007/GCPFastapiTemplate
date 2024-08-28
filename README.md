@@ -2,7 +2,6 @@
 
 ## Install
 ```
-git clone {bitbucket repo}
 poetry install
 ```
 ## Install new package
