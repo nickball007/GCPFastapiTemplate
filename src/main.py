@@ -9,7 +9,6 @@ origins = [
 ]
 
 headers = {"accept": "application/json"}
-domain_name = "google.com"
 
 app.add_middleware(
     CORSMiddleware,
